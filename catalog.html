@@ -1,1 +1,166 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">	
+	<title>Магазин</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="http://placehold.it/150x100" alt="Barbershop" class="logo-img" width="150" height="100">
+        </a>
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li>
+              <a href="catalog.html" class="current">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+            <a class="login" href="#">Вход</a>
+        </div>
+      </div>	
+    </header>
+    
+    <main class="main-container">
+      <div class="main-title">
+        <h1>Средства для ухода</h1>
+      </div>
+      <nav class="main-breadcrumbs">
+        <ul>
+          <li>
+            <a href="index.html">Главная</a>
+          </li>
+          <li>
+            <a href="catalog.html">Магазин</a>
+          </li>	
+          <li>
+            <a href="#" class="current">Средства для ухода</a>
+          </li>		
+        </ul>
+      </nav>
+      <div class="catalog-left-column">
+        <form action="" method="post">
+          <div class="catalog-left-column-production">
+            <h2 class="catalog-left-column-title">Производители:</h2>
+            <label class="catalog-left-column-label" for="baxter">Baxter of California</label>
+            <input id="baxter" type="checkbox" name="baxter" value="baxter" checked>
+            <label class="catalog-left-column-label" for="natty">Mr Natty</label>
+            <input id="natty" type="checkbox" name="natty" value="natty">
+            <label class="catalog-left-column-label" for="suavec">Suavecito</label>
+            <input id="suavec" type="checkbox" name="suavec" value="suavec" checked>
+            <label class="catalog-left-column-label" for="malin">Malin Goetz</label>
+            <input id="malin" type="checkbox" name="malin" value="malin">
+            <label class="catalog-left-column-label" for="murray">Murray's</label>
+            <input id="murray" type="checkbox" name="murray" value="murray">
+            <label class="catalog-left-column-label" for="crew">American Crew</label>
+            <input id="crew" type="checkbox" name="crew" value="crew" checked>
+          </div>
+          <div class="group-of-item">
+            <label for="razor">Бритвенные принадлежности</label>
+            <input id="razor" type="radio" name="razor" value="razor">
+            <label for="care">Средства для ухода</label>
+            <input id="care" type="radio" name="care" value="care" checked>
+            <label for="access">Аксессуары</label>
+            <input id="access" type="radio" name="access" value="access">
+          </div>
+          <div class="catalog-left-column-btn">
+            <button type="submit" class="btn catalog-left-column-btn">Показать</button>
+          </div>
+        </form>
+      </div>
+      <div class="catalog-right-column">
+        <article class="catalog-item">
+          <figure class="catalog-item-img">
+          	<img src="http://placehold.it/150x100" width="150" height="100">
+          	<figcaption>Набор для путешествий "Baxter of California"</figcaption>
+          </figure>
+          <span class="catalog-item-btn">2 900 руб.</span>
+          <a href="catalog-item.html">Купить</a>
+        </article>
+        <article class="catalog-item">
+          <figure class="catalog-item-img">
+          	<img src="http://placehold.it/150x100" width="150" height="100">
+          	<figcaption>Увлажняющий кондиционер "Baxter of California"</figcaption>
+          </figure>
+          <span class="catalog-item-btn">750 руб.</span>
+          <a href="#">Купить</a>
+        </article>
+        <article class="catalog-item">
+          <figure class="catalog-item-img">
+          	<img src="http://placehold.it/150x100" width="150" height="100">
+          	<figcaption>Гель для волос "Suavecito"</figcaption>
+          </figure>
+          <span class="catalog-item-btn">290 руб.</span>
+          <a href="#">Купить</a>
+        </article>
+        <article class="catalog-item">
+          <figure class="catalog-item-img">
+          	<img src="http://placehold.it/150x100" width="150" height="100">
+          	<figcaption>Глина для укладки волос "American crew"</figcaption>
+          </figure>
+          <span class="catalog-item-btn">500 руб.</span>
+          <a href="#">Купить</a>
+        </article>
+        <article class="catalog-item">
+          <figure class="catalog-item-img">
+          	<img src="http://placehold.it/150x100" width="150" height="100">
+          	<figcaption>Гель для волос"American crew"</figcaption>
+          </figure>
+          <span class="catalog-item-btn">300 руб.</span>
+          <a href="#">Купить</a>
+        </article>
+        <article class="catalog-item">
+          <figure class="catalog-item-img">
+          	<img src="http://placehold.it/150x100" width="150" height="100">
+          	<figcaption>Набор для бритья "Baxter of California"</figcaption>
+          </figure>
+          <span class="catalog-item-btn">3 900 руб.</span>
+          <a href="#">Купить</a>
+        </article>
+      </div>
+      <div class="catalog-pages">
+        <a class="catalog-pages-inactive" href="#">1</a>
+        <span class="catalog-pages-active">2</span>
+        <a class="catalog-pages-inactive" href="#">3</a>
+        <a class="catalog-pages-inactive" href="#">4</a>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-66
+        </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
