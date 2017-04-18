@@ -34,10 +34,11 @@
         </div>
       </div>	
     </header>
-    <main class="container">
+    <main class="main-main">
+      <div class="container">
+      <h1 class="main-title">Средства для ухода</h1>
       <div class="main-menu">
-        <h1 class="main-title">Средства для ухода</h1>
-        <nav>
+        <div>
           <ul class="main-breadcrumbs">
             <li class="main-breadcrumbs-single">
               <a class="main-breadcrumbs-link" href="index.html">Главная</a>
@@ -50,34 +51,56 @@
               </a>
             </li>		
           </ul>
-        </nav>
+        </div>
       </div>
       <div class="catalog-column">
         <div class="catalog-left-column">
           <form action="post" method="post">
-            <fieldset class="catalog-left-column-production">
-              <legend class="catalog-left-column-title">Производители:</legend>
-              <label class="catalog-left-column-label" for="baxter">Baxter of California</label>
-              <input class="catalog-left-column-input" id="baxter" type="checkbox" name="baxter" checked>
-              <label class="catalog-left-column-label" for="natty">Mr Natty</label>
-              <input class="catalog-left-column-input" id="natty" type="checkbox" name="natty">
-              <label class="catalog-left-column-label" for="suavec">Suavecito</label>
-              <input class="catalog-left-column-input" id="suavec" type="checkbox" name="suavec" checked>
-              <label class="catalog-left-column-label" for="malin">Malin Goetz</label>
-              <input class="catalog-left-column-input" id="malin" type="checkbox" name="malin">
-              <label class="catalog-left-column-label" for="murray">Murray's</label>
-              <input class="catalog-left-column-input" id="murray" type="checkbox" name="murray">
-              <label class="catalog-left-column-label" for="crew">American Crew</label>
-              <input class="catalog-left-column-input" id="crew" type="checkbox" name="crew" checked>
+            <fieldset class="catalog-left-column-block">
+              <legend class="catalog-left-column-block-title">Производители:</legend>
+              <ul class="catalog-left-column-block-list">
+              <li class="catalog-left-column-block-list-single">
+                <label class="catalog-left-column-label" for="baxter">Baxter of California</label>
+                <input class="catalog-left-column-input" id="baxter" type="checkbox" name="baxter" checked>
+              </li>
+              <li class="catalog-left-column-block-list-single">
+                <label class="catalog-left-column-label" for="natty">Mr Natty</label>
+                <input class="catalog-left-column-input" id="natty" type="checkbox" name="natty">
+              </li>
+              <li class="catalog-left-column-block-list-single">
+                <label class="catalog-left-column-label" for="suavec">Suavecito</label>
+                <input class="catalog-left-column-input" id="suavec" type="checkbox" name="suavec" checked>
+              </li>
+              <li class="catalog-left-column-block-list-single">
+                <label class="catalog-left-column-label" for="malin">Malin Goetz</label>
+                <input class="catalog-left-column-input" id="malin" type="checkbox" name="malin">
+              </li>
+              <li class="catalog-left-column-block-list-single">
+                <label class="catalog-left-column-label" for="murray">Murray's</label>
+                <input class="catalog-left-column-input" id="murray" type="checkbox" name="murray">
+              </li>
+              <li class="catalog-left-column-block-list-single">
+                <label class="catalog-left-column-label" for="crew">American Crew</label>
+                <input class="catalog-left-column-input" id="crew" type="checkbox" name="crew" checked>
+              </li>
+              </ul>
             </fieldset>
-            <fieldset class="catalog-left-column-group-of-item">
-              <legend class="catalog-left-column-group-of-item-title">Группы товаров:</legend>
-              <label class="catalog-left-column-group-of-item-label" for="razor">Бритвенные принадлежности</label>
-              <input class="catalog-left-column-group-of-item-input" id="razor" type="radio" name="item-1">
-              <label class="catalog-left-column-group-of-item-label" for="care">Средства для ухода</label>
-              <input class="catalog-left-column-group-of-item-input" id="care" type="radio" name="item-1" checked>
-              <label class="catalog-left-column-group-of-item-label" for="access">Аксессуары</label>
-              <input class="catalog-left-column-group-of-item-input" id="access" type="radio" name="item-1">
+            <fieldset class="catalog-left-column-block">
+              <legend class="catalog-left-column-block-title">Группы товаров:</legend>
+              <ul class="catalog-left-column-block-list">
+              <li class="catalog-left-column-block-list-single-radio">
+                <label class="catalog-left-column-group-of-item-label" for="razor">Бритвенные принадлежности</label>
+                <input class="catalog-left-column-group-of-item-input" id="razor" type="radio" name="item-1">
+              </li>
+              <li class="catalog-left-column-block-list-single-radio">
+                <label class="catalog-left-column-group-of-item-label" for="care">Средства для ухода</label>
+                <input class="catalog-left-column-group-of-item-input" id="care" type="radio" name="item-1" checked>
+              </li>
+              <li class="catalog-left-column-block-list-single-radio">  
+                <label class="catalog-left-column-group-of-item-label" for="access">Аксессуары</label>
+                <input class="catalog-left-column-group-of-item-input" id="access" type="radio" name="item-1">
+              </li>  
+              </ul>
             </fieldset>
             <div class="catalog-left-column-btn">
               <button type="submit" class="btn catalog-left-column-btn">Показать</button>
@@ -176,6 +199,7 @@
             <a class="catalog-page catalog-page-inactive" href="#">4</a>
           </li>
         </ul>
+      </div>
       </div>
     </main>
     <footer class="main-footer">
