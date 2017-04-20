@@ -1,1 +1,36 @@
-﻿
+﻿body {
+  font-family: PT Sans Narrow, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+  background: #070707 url("../img/barbershop-index.jpg") no-repeat center top;
+  color: #f7f4f1;
+ }
+
+ h2.index-content-title  {
+  font-family: PT Sans Narrow, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+h1.main-title {
+  font-family: PT Sans Narrow, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+h2.catalog-item-title {
+  font-family: PT Sans Narrow, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #000000;
+}
